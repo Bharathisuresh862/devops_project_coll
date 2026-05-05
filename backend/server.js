@@ -33,8 +33,7 @@ const Note = mongoose.model("Note", NoteSchema);
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("auto deply success 🚀");
-});
+res.send("FINAL AUTO DEPLOY VERIFIED 🔥");});
 
 app.post("/add", async (req, res) => {
   const note = new Note({ text: req.body.text });
