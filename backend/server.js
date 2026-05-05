@@ -33,7 +33,7 @@ const Note = mongoose.model("Note", NoteSchema);
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Backend is running 🚀");
+  res.send("hello from devops project 🚀");
 });
 
 app.post("/add", async (req, res) => {
