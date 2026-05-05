@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: bharathisuresh/devops-backend
+        image: bharathisuresh/devops-backend:latest
+        imagePullPolicy: Always   # 🔥 VERY IMPORTANT
         ports:
         - containerPort: 5000
